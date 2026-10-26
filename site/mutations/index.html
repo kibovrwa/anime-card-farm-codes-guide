@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Anime Card Farm Mutations Guide (Oct 2026)</title>
+<meta name="description" content="Mutation test loop for Anime Card Farm without invented multipliers. Checked October 15, 2026."/>
+<link rel="canonical" href="https://animecardfarm.com/mutations"/>
+<meta name="robots" content="index, follow"/>
+<meta name="google-adsense-account" content="ca-pub-7189405305305848"/>
+<meta property="og:title" content="Anime Card Farm Mutations Guide (Oct 2026)"/>
+<meta property="og:description" content="Mutation test loop for Anime Card Farm without invented multipliers. Checked October 15, 2026."/>
+<meta property="og:url" content="https://animecardfarm.com/mutations"/>
+<meta property="og:type" content="article"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Anime Card Farm Mutations Guide (Oct 2026)","datePublished":"2026-10-15T00:00:00+08:00","dateModified":"2026-10-15T00:00:00+08:00","url":"https://animecardfarm.com/mutations","author":{"@type":"Organization","name":"Anime Card Farm Wiki"}}</script>
+<style>
+
+:root{--bg:#070923;--card:#111538;--ink:#eef0ff;--muted:#aeb3d8;--ok:#86efac;--warn:#fcd34d;--accent:#67e8f9}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:980px;margin:0 auto;padding:20px}
+header{display:flex;gap:14px;flex-wrap:wrap;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+header a{font-weight:700;color:#dbeafe;margin-right:8px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);line-height:1.15;margin:22px 0 10px}
+h2{font-size:1.3rem;margin:30px 0 12px}h3{font-size:1.05rem;margin:18px 0 8px;color:#dbeafe}
+.lede,.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:18px;margin:16px 0}
+.answer{background:linear-gradient(135deg,rgba(192,38,211,.18),rgba(34,211,238,.12));border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px 18px;margin:18px 0}
+.related a{display:inline-block;margin:6px 10px 0 0;padding:8px 12px;border-radius:12px;background:rgba(255,255,255,.06);font-weight:700}
+ol,ul{padding-left:1.25rem;color:var(--muted)}li{margin:6px 0}
+table{width:100%;border-collapse:collapse;background:rgba(255,255,255,.04);border-radius:14px;overflow:hidden;margin:12px 0}
+th,td{padding:10px 12px;text-align:left;border-top:1px solid rgba(255,255,255,.08);font-size:.92rem;vertical-align:top}
+th{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:rgba(255,255,255,.04)}
+footer{margin:36px 0 18px;color:var(--muted);font-size:.85rem}
+code{font-weight:800;color:#fff}
+.eyebrow{color:var(--accent);font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.75rem;margin-top:26px}
+
+</style><!-- ga4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1PW3802BQ"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500,region:['AT','BE','BG','CH','CY','CZ','DE','DK','EE','ES','FI','FR','GB','GR','HR','HU','IE','IS','IT','LI','LT','LU','LV','MT','NL','NO','PL','PT','RO','SE','SI','SK']});
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});
+gtag('js',new Date());
+gtag('config','G-M1PW3802BQ');
+</script>
+<style id="polish">
+html,body{overflow-x:clip}
+.nav{display:flex;flex-wrap:wrap;gap:8px 12px;max-width:100%}
+.nav a{margin-right:0}
+header{max-width:100%}
+header nav{display:flex;flex-wrap:wrap;gap:6px 10px;max-width:100%}
+.hscroll{width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+nav[aria-label="Mobile navigation"]{flex-wrap:wrap;overflow-x:visible;row-gap:6px}
+footer div:has(svg.lucide-calendar-clock){display:none!important}
+.acf-paper h2.text-2xl{display:none}
+img,video{max-width:100%;height:auto}
+body{overflow-wrap:break-word}
+</style>
+</head>
+<body><div class="wrap">
+<header>
+  <a href="/">Anime Card Farm Wiki</a>
+  <nav>
+    <a href="/codes">Codes</a>
+    <a href="/beginner-guide">Beginner</a>
+    <a href="/packs">Packs</a>
+    <a href="/cards">Cards</a>
+    <a href="/mutations">Mutations</a>
+    <a href="/offline-money">Offline</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<p class="eyebrow">Reference</p>
+<h1>Anime Card Farm Mutations: Potions, Timing &amp; What Not to Invent</h1>
+<p class="lede">Mutations change how cards behave or look after an item or event. This static page teaches an observation loop — not a fabricated multiplier spreadsheet.</p>
+<aside class="answer"><b>Short answer:</b> Use mutation potions from <a href="/codes">codes</a> on a slot you can measure, change one variable at a time, and write down whether income or UI labels actually moved. If a TikTok lists exact × multipliers with no UI proof, treat it as Reported — not gospel.</aside>
+
+<div class="card">
+<h2 style="margin-top:0">Why mutation pages go wrong</h2>
+<ul>
+<li>They paste multiplier tables copied between mirrors.</li>
+<li>They mix cosmetic mutations with production mutations.</li>
+<li>They ignore Contested codes that were supposed to grant the potion.</li>
+</ul>
+<p class="muted">Our rule: describe the test, label uncertainty, and refuse invented × values.</p>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">Safe test loop (one change)</h2>
+<ol>
+<li>Note the card, slot, and any visible income/output indicator <b>before</b> the potion or event.</li>
+<li>Apply one mutation source only (one potion, or one weather event — not both).</li>
+<li>Wait for the UI to settle; re-read labels on the card and slot.</li>
+<li>Compare after. If nothing measurable changed, do not invent a win in your notes.</li>
+<li>Only then decide whether a second potion is worth the inventory.</li>
+</ol>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">Observation table</h2>
+<div class="hscroll"><table>
+<thead><tr><th>You see</th><th>Record</th><th>Do not</th></tr></thead>
+<tbody>
+<tr><td>Potion from an Active code</td><td>Code string + check date from /codes</td><td>Assume every Contested code still grants it</td></tr>
+<tr><td>New border / name suffix</td><td>Cosmetic vs production — check income</td><td>Equate shine with profit</td></tr>
+<tr><td>Income up after one change</td><td>Before/after numbers from your client</td><td>Publish those numbers as universal rates</td></tr>
+<tr><td>Income flat</td><td>“No measurable change”</td><td>Blame the whole mutation system and rage-buy packs</td></tr>
+</tbody>
+</table></div>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">Mutations vs packs</h2>
+<p>A mutation test is usually cheaper than a pack binge if the potion came from codes. Packs still need <a href="/packs">payback</a>. Do not burn pack currency to “fix” a mutation rumor — that confounds two experiments.</p>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">Crafting &amp; mutations</h2>
+<p>If crafting UI exists in your client, treat recipes you cannot see as unconfirmed. See <a href="/crafting">crafting</a> for the honesty limits. Third-party craft lists that do not match your labels get ignored.</p>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">FAQ</h2>
+<p><b>Do you list every mutation name?</b> No — names change and Index silhouettes unlock over time. Prefer your Index.</p>
+<p><b>Can I email a multiplier screenshot?</b> Yes to <a href="mailto:hello@animecardfarm.wiki">hello@animecardfarm.wiki</a>. We may still label it Reported until we can reproduce.</p>
+<p><b>Does AdSense change mutation grades?</b> No. See <a href="/ads-disclosure">ads disclosure</a>.</p>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">Sources</h2>
+<p class="muted">Methodology: <a href="/source-methodology">source methodology</a>. Related: <a href="/cards">cards</a>, <a href="/offline-money">offline money</a>, <a href="/beginner-guide">beginner</a>.</p>
+</div>
+
+
+<div class="card">
+<h2 style="margin-top:0">Potion inventory hygiene</h2>
+<ul>
+<li>Label in your notes which potions came from which Active code check date.</li>
+<li>Do not dump every potion onto one card in a single minute.</li>
+<li>Keep one untreated control card on the board when possible so you can see contrast.</li>
+</ul>
+</div>
+<div class="card">
+<h2 style="margin-top:0">When to stop testing</h2>
+<p>Stop when you cannot remember the before state. Mutation literacy is about memory and notes, not about consuming the whole inventory because a video said “stack everything.”</p>
+</div>
+
+
+<div class="card" id="mut-uncertainty">
+<h2 style="margin-top:0">Documented uncertainty is allowed</h2>
+<p>Writing “unconfirmed in our client on October 15, 2026” is better than a precise-looking fake grid. Players can live with uncertainty; they cannot live with confident wrong multipliers. If a creator later publishes an official mutation chart, we will cite it with a date and demote rumor tables.</p>
+</div>
+
+<div class="card" id="w3-boost"><h2 style="margin-top:0">October 15, 2026 — mutations method depth</h2>
+<p class="muted">Method-first page: how to evaluate mutations without invented multipliers.</p>
+<div class="hscroll"><table><thead><tr><th>Step</th><th>Action</th><th>Stop if</th></tr></thead><tbody>
+<tr><td>1</td><td>Read UI label only</td><td>Label missing → Unconfirmed</td></tr>
+<tr><td>2</td><td>Compare to your income card</td><td>You cannot name the job</td></tr>
+<tr><td>3</td><td>One change per session</td><td>You respec five things</td></tr>
+<tr><td>4</td><td>Write payback in your Shop numbers</td><td>You cite a TikTok %</td></tr>
+</tbody></table></div>
+<ul>
+<li>No fabricated mutation DPS sheets.</li>
+<li>Codes first: <a href="/codes">Codes</a>.</li>
+<li>Packs payback: <a href="/packs">Packs</a>.</li>
+<li>Offline link: <a href="/offline-money">Offline money</a>.</li>
+</ul>
+<details><summary>FAQ: community multiplier charts</summary><p class="muted">Leads welcome at hello@animecardfarm.wiki. Publish only with UI cite + date.</p></details>
+</div>
+<div class="card" id="w3-boost2"><h2 style="margin-top:0">Mutations session template (October 15, 2026)</h2>
+<p class="muted">Use this when the page temptation is to open five charts. Charts without UI labels are not this site's product.</p>
+<ol>
+<li>Redeem <a href="/codes">codes</a>.</li>
+<li>Note your current income card job in one sentence.</li>
+<li>Read one mutation UI label — write it verbatim.</li>
+<li>Decide keep / skip using payback language from <a href="/packs">packs</a>.</li>
+<li>Stop. Optional: one offline check on <a href="/offline-money">offline money</a>.</li>
+</ol>
+<div class="hscroll"><table><thead><tr><th>Anti-pattern</th><th>Replace with</th></tr></thead><tbody>
+<tr><td>Copying a TikTok multiplier</td><td>UI quote + Unconfirmed if missing</td></tr>
+<tr><td>Respeccing entire board</td><td>One change</td></tr>
+<tr><td>Ignoring Contested codes</td><td>Codes table first</td></tr>
+</tbody></table></div>
+<details><summary>FAQ: When do multipliers appear here?</summary><p class="muted">When we can cite a primary label with a Checked stamp. Until then methods only. Mail hello@animecardfarm.wiki.</p></details>
+<details><summary>FAQ: Relation to crafting</summary><p class="muted"><a href="/crafting">Crafting</a> is a separate honesty lane — do not merge rumor crafts into mutation math.</p></details>
+</div>
+<div class="card" id="w3-boost3"><h2 style="margin-top:0">Why method pages beat tier lists</h2>
+<p class="muted">Tier lists age into lies after one economy patch. A method page ages into a habit: read the label, one change, payback in your Shop numbers, stop. That habit still works when the meta screenshot from last month does not.</p>
+</div>
+<p class="related">
+  <a href="/codes">Codes</a>
+  <a href="/beginner-guide">Beginner</a>
+  <a href="/packs">Packs</a>
+  <a href="/cards">Cards</a>
+  <a href="/mutations">Mutations</a>
+  <a href="/offline-money">Offline money</a>
+  <a href="/crafting">Crafting</a>
+  <a href="/faq">FAQ</a>
+  <a href="/contact">Contact</a>
+  <a href="/privacy">Privacy</a>
+  <a href="/ads-disclosure">Ads</a>
+</p>
+<footer>Independent fan wiki. Not affiliated with Roblox or Anime Card Factory. ads.txt authorizes pub-7189405305305848.</footer>
+</div></body></html>

@@ -1,0 +1,8 @@
+{
+  "name": "anime-card-farm",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/check-site.mjs",
+    "deploy": "npx wrangler pages deploy site --project-name=animecardfarm-com --branch=main"
+  }
+}
