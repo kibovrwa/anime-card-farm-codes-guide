@@ -6,7 +6,7 @@ const site = join(root, "site");
 
 const expectedTitles = {
   "index.html": "Anime Card Farm Wiki: Codes, Packs, Cards &amp; Guides",
-  "codes.html": "Anime Card Farm Codes (October 2026): Working List",
+  "codes.html": "Anime Card Farm Codes (November 2026): Working List",
   "beginner-guide.html": "Anime Card Farm Beginner Guide (Oct 2026): Codes First, Then Farm",
   "packs.html": "Anime Card Farm Packs Guide (Oct 2026): Payback Before You Buy",
   "cards.html": "Anime Card Farm Cards Guide (Oct 2026): Weak-Slot Replace",
